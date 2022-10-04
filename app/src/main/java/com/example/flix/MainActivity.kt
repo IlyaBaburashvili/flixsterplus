@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
 
                 try {
                     val resultsJson = json.jsonObject.getJSONArray("results")
-                    people.addAll(Actor.fromJasonArray(resultsJson))
+                    people.addAll(Actor.parceJson(resultsJson))
                     articleAdapter.notifyDataSetChanged()
 
 

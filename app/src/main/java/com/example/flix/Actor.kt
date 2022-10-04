@@ -15,20 +15,20 @@ data class Actor(
     val profileImageUrl = "https://image.tmdb.org/t/p/w342/$profilePath"
 
     companion object {
-        fun fromJasonArray(movieJsonArray: JSONArray): List<Actor> {
-            val people = mutableListOf<Actor>()
-            for(i in 0 until movieJsonArray.length()){
-                val peopleJson = movieJsonArray.getJSONObject(i)
-                people.add(
+        fun parceJson(listOfActors: JSONArray): List<Actor> {
+            val actors = mutableListOf<Actor>()
+            for(i in 0 until listOfActors.length()){
+                val peopleJson = listOfActors.getJSONObject(i)
+                actors.add(
                     Actor(
                         peopleJson.getInt("id"),
                         peopleJson.getString("profile_path"),
                         peopleJson.getString("name"),
                         peopleJson.getString("known_for")
                         )
-                )
-            }
-            return people
+                    )
+                }
+            return actors
         }
     }
 }

@@ -1,10 +1,10 @@
-# Android Project 4 - *Flix*
+# Android Project 4 - *Flixster*
 
-Submitted by: **Joshua Barrientos**
+Submitted by: **Ilya Baburashvili**
 
-**Name of your app** is a movie browsing app that allows users to browse popular celebrities and get info of a movie or TV show they are known for. 
+**Flixster** is a movie browsing app that allows users to browse popular celebrities and get info of a movie or TV show they are known for. 
 
-Time spent: *15* hours spent in total
+Time spent: *12* hours spent in total
 
 ## Required Features
 
@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://imgur.com/a/hjziKjg.gif
 
 GIF created with [LiceCap](https://www.cockos.com/licecap/) 
 
